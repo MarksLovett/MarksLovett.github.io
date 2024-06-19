@@ -55,8 +55,8 @@ $sidebar-link-max-width     : 250px;
    Colors
    ========================================================================== */
 
-$forest-green                : rgb(18, 49, 43);
-$snow-white                  : rgb(255, 255, 255);
+$forest-green               : rgb(18, 49, 43);
+$snow-white                 : rgb(255, 255, 255);
 $gray                       : #7a8288;
 $dark-gray                  : mix(#000, $gray, 40%);
 $darker-gray                : mix(#000, $gray, 60%);
@@ -67,7 +67,7 @@ $body-color                 : $forest-green;
 $background-color           : $forest-green;
 $code-background-color      : #fafafa;
 $code-background-color-dark : $light-gray;
-$text-color                 : $show-white;
+$text-color                 : $snow-white;
 $border-color               : $lighter-gray;
 
 $primary-color              : #7a8288;
