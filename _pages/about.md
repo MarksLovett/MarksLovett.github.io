@@ -17,5 +17,3 @@ Current Research Projects
 1. Analyizing the influencer and follower dynamics via game theory
 1. Studying the impact of reward gradient on the convergence of multi-agent reinforcment learning alogirthms
 1. Analyizing how poliricians move through ideological spaces using a combined approach of NLP models and Multi-agent reinforcement learning. 
-
-C
