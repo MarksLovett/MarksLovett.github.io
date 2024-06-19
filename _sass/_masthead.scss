@@ -37,10 +37,11 @@
 }
 
 .masthead__menu {
-  background: $lighter-fg;
+
   ul {
     margin: 0;
     padding: 0;
+    clear: both;
     list-style-type: none;
   }
 }
