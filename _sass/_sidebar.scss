@@ -106,7 +106,7 @@
   padding-left: 15px;
   padding-right: 25px;
   line-height: 1;
-  background-color: $snow-white;
+  background-color: $lighter-fg;
 
   @include breakpoint($large) {
     display: block;
@@ -155,6 +155,7 @@
 }
 
 .author__urls-wrapper {
+  background-color: $lighter-fg;
   position: relative;
   display: table-cell;
   vertical-align: middle;
