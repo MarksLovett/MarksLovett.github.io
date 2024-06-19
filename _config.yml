@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Home of Mark Lovett"
+title                    : "About Me"
 title_separator          : "-"
 name                     : &name "Mark Lovett"
 description              : &description "Self proclaimed mathematician"
