@@ -8,7 +8,6 @@
 
 .sidebar {
 
-  background-color: $lighter-fg;
   -webkit-transform: translate3d(0, 0 , 0);
           transform: translate3d(0, 0 , 0);
 
@@ -108,7 +107,6 @@
   padding-left: 15px;
   padding-right: 25px;
   line-height: 1;
-  background-color: $dartmouth-g;
 
   @include breakpoint($large) {
     display: block;
@@ -157,7 +155,6 @@
 }
 
 .author__urls-wrapper {
-  background-color: $dartmouth-g;
   position: relative;
   display: table-cell;
   vertical-align: middle;
