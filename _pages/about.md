@@ -27,3 +27,11 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
+I am a Ph.D. candidate at Dartmouth College studying applied mathematics with a focus in game theory and artificial intelligence (AI). My work in game theory allows me to understand social interactions by distilling complex networks to their simplest forms, predicting new developments in political science, artificial intelligence, evolutionary ecology, and business.
+
+My work in artificial intelligence has been to understand what games drive AI learning. Just like human agents, AI agents optimize have thier own objectives, these objectives are mathematically represented objectives. 
+
+As an instructor, I leveraged my skills in novel technologies and classroom management to construct a framework that allowed for efficient course expansion, optimizing curriculum, which led to an increase in student satisfaction.
+﻿
+ 
+
