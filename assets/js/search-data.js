@@ -71,6 +71,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
+            },},{id: "projects-influencer-games",
+          title: 'Influencer Games',
+          description: "This project is the thesis work of my Ph.D. at Dartmouth. We introduce a novel game type &#39;Influencer Games&#39; and theory about their Nash equilibria.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/1_project/";
             },},{
         id: 'social-email',
         title: 'email',
