@@ -179,6 +179,8 @@ exclude:
   - _projects/?_project.md
   - assets/jupyter/blog.ipynb
   - bin/
+  - _pages/profiles.md
+  - pages/dropdown.md
   - CONTRIBUTING.md
   - CUSTOMIZE.md
   - Dockerfile
