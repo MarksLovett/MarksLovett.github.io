@@ -180,7 +180,7 @@ exclude:
   - assets/jupyter/blog.ipynb
   - bin/
   - _pages/profiles.md
-  - pages/dropdown.md
+  - _pages/dropdown.md
   - CONTRIBUTING.md
   - CUSTOMIZE.md
   - Dockerfile
