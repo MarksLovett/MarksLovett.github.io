@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Influencer Games 
-description: This project is the thesis work of my Ph.D. at Dartmouth. We introduce a novel game type 'Influencer Games' and theory about their Nash equilibria.  
+description: In this package I created a python package for my thesis work. Allowing users to study custom and the paper's influence games via MARL and adaptive dynamics. 
 img: assets/img/InflGames.png
-redirect: https://unsplash.com
+redirect: https://markslovett.github.io/InflGame/
 importance: 1
 category: work
 related_publications: true
