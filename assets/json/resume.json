@@ -69,10 +69,7 @@
     "studyType": "Ph.D., Masters",
     "startDate": "2022-08-25",
     "endDate": "2027-06-11",
-    "score": "N.A.",
-    "courses": [
-      ""
-    ]
+    "score": "N.A."
   },
 {
     "institution": "University of Pennsylvania",
@@ -81,10 +78,7 @@
     "studyType": "Bachelor",
     "startDate": "2018-08-25",
     "endDate": "2021-06-11",
-    "score": "3.60 GPA",
-    "courses": [
-      ""
-    ]
+    "score": "3.60 GPA"
   }],
 
   "publications": [{
