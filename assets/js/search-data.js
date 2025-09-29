@@ -71,9 +71,9 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "projects-influencer-games",
-          title: 'Influencer Games',
-          description: "In this package I created a python package for my thesis work. Allowing users to study custom and the paper&#39;s influence games via MARL and adaptive dynamics.",
+            },},{id: "projects-inflgames",
+          title: 'InflGames',
+          description: "A Python package developed for my thesis to study &quot;influencer games&quot; using multi-agent reinforcement learning (MARL) and adaptive dynamics. The package enables users to run experiments with custom games and reproduce results from the paper.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{
