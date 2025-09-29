@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Influencer Games 
-description: In this package I created a python package for my thesis work. Allowing users to study custom and the paper's influence games via MARL and adaptive dynamics. 
+title: InflGames
+description: A Python package developed for my thesis to study "influencer games" using multi-agent reinforcement learning (MARL) and adaptive dynamics. The package enables users to run experiments with custom games and reproduce results from the paper.
 img: assets/img/InflGames.png
 redirect: https://markslovett.github.io/InflGame/
 importance: 1
@@ -10,9 +10,8 @@ related_publications: true
 ---
 
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Every project has a feature showcase page.
+This package implements influencer-game environments and tools for MARL and adaptive-dynamics experiments, making it easy to probe opinion and influence dynamics across custom networked settings.
 
 To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 

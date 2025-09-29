@@ -22,7 +22,7 @@
     "url": "",
     "startDate": "2022-08-25",
     "endDate": "",
-    "summary": "Ph.D. candidate in applied mathematics under the advisorship of Prof. Feng Fu in the Fu Lab. Research focuses on symmetric games with emphasis on influence games and their real-world applications. Developed theoretical foundations for multi-agent reinforcement learning (MARL) results and conducted statistical simulations of strategic interactions.",
+    "summary": "Ph.D. candidate in applied mathematics under the advisors of Prof. Feng Fu in the Fu Lab. Research focuses on symmetric games with emphasis on influence games and their real-world applications. Developed theoretical foundations for multi-agent reinforcement learning (MARL) results and conducted statistical simulations of strategic interactions.",
     "highlights": [
       "Game theory and AI research",
       "Python programming"
@@ -34,7 +34,7 @@
       "url": "",
       "startDate": "2025-08-27",
       "endDate": "",
-      "summary": "Co-founded a consulting startup with a fellow graduate student to help growing companies optimize operations through strategic infrastructure analysis. As AI and Innovation Specialist, I provide strategic guidance and implement AI solutions that help clients leverage data for better decision-making and adapt to emerging technologies. Currently serving one client with another contract in development. Projected first-year revenue of $12,000 with anticipated growth to $50,000 in year two.",
+      "summary": "Co-founded a consulting startup with a fellow graduate student to help growing companies optimize operations through strategic infrastructure analysis. As AI and Innovation Specialist, I provide strategic guidance and implement AI solutions that help clients leverage data for better decision-making and adapt to emerging technologies. Currently serving one client with another contract in development. Projected first-year revenue of 3,000 USD our first quarter and minimum anticipated growth to 50,000 USD in fiscal year two.",
       "highlights": [
         "AI strategy and implementation"
       ]
@@ -45,7 +45,7 @@
       "url": "",
       "startDate": "2023-08-25",
       "endDate": "",
-      "summary": "Provided mentorship to students in career development, academic success, and personal growth while managing comprehensive residential programming. Planned and executed community-building events and initiatives with a combined budget of over $125,000, achieving a record 85% student satisfaction rate. Collaborated with college staff to address student needs and enhance the residential experience through strategic programming and individualized support.",
+      "summary": "Provided mentorship to students in career development, academic success, and personal growth while managing comprehensive residential programming. Planned and executed community-building events and initiatives with a combined budget of over 125,000 USD, achieving a record 85% student satisfaction rate. Collaborated with college staff to address student needs and enhance the residential experience through strategic programming and individualized support.",
       "highlights": [
         "Mentorship and community building"
       ]
@@ -56,7 +56,7 @@
     "url": "https://gsc.dartmouth.edu/",
     "startDate": "2022-10-01",
     "endDate": "2025-06-01",
-  "summary": "Led the planning and execution of social and professional development events for 1,000+ graduate students, managing a $20,000 annual budget to strengthen community engagement. Represented student interests to college administration, helping secure policy changes and improved resources for graduate programs.",
+  "summary": "Led the planning and execution of social and professional development events for 1,000+ graduate students, managing a 20,000 USD annual budget to strengthen community engagement. Represented student interests to college administration, helping secure policy changes and improved resources for graduate programs.",
     "highlights": [
       "Awarded 'Member of the Month'",
       "Social Co-Chair"
@@ -86,10 +86,7 @@
       ""
     ]
   }],
-  "awards": [{
-  }],
-  "certificates": [{
-  }],
+
   "publications": [{
     "name": "Influencer Games: A New Class of Games for Modeling Influence and Opinion Dynamics in Social Networks",
     "publisher": "TBD",
@@ -138,8 +135,7 @@
       "Swimming"
     ]
   }],
-  "references": [{
-}],
+
   "projects": [{
     "name": "InflGame package",
     "startDate": "2023-01-01",
