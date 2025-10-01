@@ -72,8 +72,8 @@ ninja.data = [{
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
             },},{id: "courses-evolutionary-game-theory-math-30",
-          title: 'Evolutionary Game theory Math 30',
-          description: "A mathematical course on evolutionary game theory. The course introduces students to game theory and the concept of Nash equilibria, before introducing Evolutionary game theory to students. The topics covered are Evolutionary stable states, replicator dynamics, adaptive dynamics, asymmetric games, and evolutionary games on graphs. As a project based class the students are reponsibe for working with a team to dilver research project integrating evolutionary game theory into a problem of thier choice.",
+          title: 'Evolutionary Game Theory Math 30',
+          description: "A comprehensive mathematical course exploring evolutionary game theory and its applications across biology, economics, and social sciences. Students begin with foundational game theory concepts and Nash equilibria before advancing to evolutionary dynamics. Core topics include evolutionarily stable strategies, replicator dynamics, adaptive dynamics, asymmetric games, and evolutionary games on networks. This project-based course culminates in team research projects where students apply evolutionary game theory frameworks to real-world problems of their choosing.",
           section: "Courses",handler: () => {
               window.location.href = "/courses/1_course/";
             },},{id: "projects-inflgames",
