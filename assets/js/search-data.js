@@ -78,9 +78,19 @@ ninja.data = [{
               window.location.href = "/courses/1_course/";
             },},{id: "projects-inflgames",
           title: 'InflGames',
-          description: "A Python package developed for my thesis to study &quot;influencer games&quot; using multi-agent reinforcement learning (MARL) and adaptive dynamics. The package enables users to run experiments with custom games and reproduce results from the paper.",
+          description: "A Python package developed for my thesis to study the influencer&#39;s game using multi-agent reinforcement learning (MARL) and adaptive dynamics. The package enables users to run experiments with custom games and reproduce results from the paper.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
+            },},{id: "projects-inflens",
+          title: 'InflEns',
+          description: "A Python research package that implements the influencer&#39;s game and routes queries across small language models using proportional allocation and trait-space geometry from Lovett &amp; Fu.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2_infl_ens/";
+            },},{id: "projects-evolutionary-emergent-misalignment",
+          title: 'Evolutionary Emergent Misalignment',
+          description: "An evolutionary game-theory benchmark that probes how emergent misalignment changes LLM cooperation, strategy choice, and social behavior in social-dilemma games.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/3_evolutionary_emergent_misalignment/";
             },},{
         id: 'social-email',
         title: 'email',
