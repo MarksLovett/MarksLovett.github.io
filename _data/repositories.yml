@@ -1,3 +1,11 @@
+# Put matching images here, then commit them:
+#   assets/img/repositories/users/<username>.png
+#   assets/img/repositories/repos/<repo-name>.png
+#
+# Current expected files:
+#   assets/img/repositories/users/MarksLovett.png
+#   assets/img/repositories/repos/InflGame.png
+
 github_users:
   - MarksLovett
 
