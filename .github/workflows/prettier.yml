@@ -10,6 +10,9 @@ on:
       - master
       - main
 
+permissions:
+  contents: write
+
 jobs:
   check:
     # available images: https://github.com/actions/runner-images#available-images
@@ -46,3 +49,12 @@ jobs:
         with:
           event-type: prettier-failed-on-pr
           client-payload: '{"pr_number": "${{ github.event.number }}", "artifact_url": "${{ steps.artifact-upload.outputs.artifact-url }}", "run_id": "${{ github.run_id }}"}'
+      - name: Commit and push Prettier fixes
+        if: ${{ failure() && steps.prettier.conclusion == 'failure' && github.event_name == 'push' }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          npx prettier . --write
+          git add -A
+          git commit -m "chore: format with Prettier" || echo "No changes to commit"
+          git push
