@@ -2,12 +2,11 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Course materials from the classes that I have taught. 
+description: Course materials from the classes that I have taught.
 nav: true
 nav_order: 6
 horizontal: false
 ---
-
 
 <!-- pages/projects.md -->
 <div class="teaching">

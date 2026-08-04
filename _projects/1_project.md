@@ -9,7 +9,6 @@ category: work
 related_publications: true
 ---
 
-
 Every project has a feature showcase page.
 This package implements influencer's game environments and tools for MARL and adaptive-dynamics experiments, making it easy to probe opinion and influence dynamics across custom networked settings.
 
