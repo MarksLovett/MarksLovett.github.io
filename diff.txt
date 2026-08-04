@@ -1,0 +1,131 @@
+diff --git a/_config.yml b/_config.yml
+index f36ef57..b7d9181 100644
+--- a/_config.yml
++++ b/_config.yml
+@@ -4,10 +4,10 @@
+ 
+ title: blank # the website title (if blank, full name will be used instead)
+ first_name: Mark
+-middle_name: 
++middle_name:
+ last_name: Lovett
+ contact_note: >
+-  Reach out via email 
++  Reach out via email
+ description: > # the ">" symbol means to ignore newlines until "footer_text:"
+   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+ footer_text: >
+@@ -19,7 +19,7 @@ lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
+ icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+ 
+ url: https://MarksLovett.github.io # the base hostname & protocol for your site
+-baseurl:  # the subpath of your site, e.g. /blog/. Leave blank for root
++baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
+ last_updated: false # set to true if you want to display last updated in the footer
+ impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
+ back_to_top: true # set to false to disable the back to top button
+@@ -73,7 +73,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
+ 
+ # For Google Analytics, see https://support.google.com/analytics/answer/10447272?hl=en&ref_topic=14088998&sjid=5129943941510317771-SA#zippy=%2Cgoogle-sites
+ # and follow the instructions for Google Sites. You will need to create a Google Analytics property and copy the Google tag ID.
+-google_analytics: 'G-SS85HED103' # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
++google_analytics: "G-SS85HED103" # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
+ cronitor_analytics: # cronitor RUM analytics site ID (format: XXXXXXXXX)
+ pirsch_analytics: # your Pirsch analytics site ID (length 32 characters)
+ openpanel_analytics: # your Openpanel analytics client ID (format: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX)
+diff --git a/_pages/about.md b/_pages/about.md
+index ec0b96d..f49627c 100644
+--- a/_pages/about.md
++++ b/_pages/about.md
+@@ -28,15 +28,15 @@ latest_posts:
+ 
+ I am a Ph.D. candidate in applied mathematics at Dartmouth College, where I study game theory and artificial intelligence (AI). In my game-theory research I model social interactions by reducing complex networks to concise, tractable representations. These models help explain and predict phenomena across political science, AI, evolutionary ecology, and business. My game-theory work focuses on several related themes:
+ 
+-- **Influence and allocation games.** Models of competition for limited resources in which players exert influence to secure them. My thesis introduces the [*influencer's game*](https://markslovett.github.io/InflGame/), in which each player's influence is centered on its position in space, so position itself becomes a strategy. Examples include political campaigns (candidates competing for votes) and platform competition for users; similar dynamics arise in machine-learning settings where agents compete for attention or data.
++- **Influence and allocation games.** Models of competition for limited resources in which players exert influence to secure them. My thesis introduces the [_influencer's game_](https://markslovett.github.io/InflGame/), in which each player's influence is centered on its position in space, so position itself becomes a strategy. Examples include political campaigns (candidates competing for votes) and platform competition for users; similar dynamics arise in machine-learning settings where agents compete for attention or data.
+ - **Evolutionary game theory.** The study of how strategies evolve in populations. By reducing complex population dynamics to tractable mathematical models, evolutionary game theory yields accurate predictions of agent behavior and has applications in ecology (for example, [Tilman et al.](https://www.nature.com/articles/s41467-020-14531-6)), cooperation studies (for example, [Traulsen et al.](https://royalsocietypublishing.org/doi/full/10.1098/rstb.2021.0508)), decision making, and AI–human cooperation.
+ 
+ In AI, I study the incentive structures and learning environments that shape agent behavior: essentially, which "games" drive learning and why. I investigate how formally specified objectives influence learning dynamics and emergent strategies in both simulated and real-world settings, with most of my work in large language models and multi-agent reinforcement learning. The reason to characterize these games is safety rather than performance. Failure modes such as collusion, deception, and reward hacking are equilibrium properties rather than accidents of a particular training run, so an incentive-level account tells us which failures a system is being pushed toward before we have to catch them in evaluation.
+ 
+ This runs in two directions. On the reward-design side, I work with Elizaveta Tennant through the [MARS program](https://caish.org/mars) on moral alignment for LLM agents, extending her framework of explicitly specified intrinsic rewards ([paper](https://arxiv.org/abs/2410.01639)). On the oversight side, I work with [Soroush Vosoughi](https://www.cs.dartmouth.edu/~soroush/) on ensemble and router dynamics for language models, using the influencer's game as a lens on scalable oversight. <!-- TODO: link to the ensemble project once public -->
+ 
+-Combining insights from AI and game theory has major applications for AI–AI, human–human, and especially human–AI interactions. I think this matters urgently. As systems become more capable and more autonomous, misalignment becomes harder to catch after the fact, and game theory is unusually well suited to the problem because it reasons about behavior through incentives. That lets us construct the equilibria we want rather than only measure the dispositions a trained model happens to arrive at. Two of my favorite cases for AI safety and game theory: Redwood Research on [the case for ensuring that powerful AIs are controlled](https://blog.redwoodresearch.org/p/the-case-for-ensuring-that-powerful) and the Cooperative AI Foundation's [multi-agent risks report](https://arxiv.org/abs/2502.14143);.. 
++Combining insights from AI and game theory has major applications for AI–AI, human–human, and especially human–AI interactions. I think this matters urgently. As systems become more capable and more autonomous, misalignment becomes harder to catch after the fact, and game theory is unusually well suited to the problem because it reasons about behavior through incentives. That lets us construct the equilibria we want rather than only measure the dispositions a trained model happens to arrive at. Two of my favorite cases for AI safety and game theory: Redwood Research on [the case for ensuring that powerful AIs are controlled](https://blog.redwoodresearch.org/p/the-case-for-ensuring-that-powerful) and the Cooperative AI Foundation's [multi-agent risks report](https://arxiv.org/abs/2502.14143);..
+ 
+ Beyond research, I have thoroughly enjoyed teaching at Dartmouth. I design scalable, technology-enabled course frameworks and curricula that improve delivery and student experience. My teaching emphasizes clear learning objectives, reproducible assignments, and practical tools that make courses easier to run and extend. I have five years of TA experience across 12 courses at two institutions, and I have independently taught two courses on evolutionary game theory.
+ 
+-Outside of academics, I am a senior member of [Amifore Consulting and Management LLC](https://www.amifore.com/), a startup delivering ethical consulting solutions to emerging businesses. I work in AI and innovation consulting for clients internationally, including in Switzerland, implementing strategic project management systems and building AI-assisted workflows. This work has sharpened my sense of how AI research translates into practice, and of what responsible deployment actually asks of a small organization.
+\ No newline at end of file
++Outside of academics, I am a senior member of [Amifore Consulting and Management LLC](https://www.amifore.com/), a startup delivering ethical consulting solutions to emerging businesses. I work in AI and innovation consulting for clients internationally, including in Switzerland, implementing strategic project management systems and building AI-assisted workflows. This work has sharpened my sense of how AI research translates into practice, and of what responsible deployment actually asks of a small organization.
+diff --git a/_pages/google414fd2a08fff7a9d.html b/_pages/google414fd2a08fff7a9d.html
+index a29c66e..934556c 100644
+--- a/_pages/google414fd2a08fff7a9d.html
++++ b/_pages/google414fd2a08fff7a9d.html
+@@ -1 +1 @@
+-google-site-verification: google414fd2a08fff7a9d.html
+\ No newline at end of file
++google-site-verification: google414fd2a08fff7a9d.html
+diff --git a/_pages/projects.md b/_pages/projects.md
+index 97716b8..3d69f67 100644
+--- a/_pages/projects.md
++++ b/_pages/projects.md
+@@ -2,7 +2,7 @@
+ layout: page
+ title: projects
+ permalink: /projects/
+-description: My current project and upcoming work. 
++description: My current project and upcoming work.
+ nav: true
+ nav_order: 3
+ display_categories: [work, fun]
+diff --git a/_pages/repositories.md b/_pages/repositories.md
+index 3a1322e..ea15bac 100644
+--- a/_pages/repositories.md
++++ b/_pages/repositories.md
+@@ -2,7 +2,7 @@
+ layout: page
+ permalink: /repositories/
+ title: repositories
+-description: My Github repositories available to the public. 
++description: My Github repositories available to the public.
+ nav: true
+ nav_order: 4
+ ---
+diff --git a/_pages/teaching.md b/_pages/teaching.md
+index e99a4fd..c42fb4e 100644
+--- a/_pages/teaching.md
++++ b/_pages/teaching.md
+@@ -2,13 +2,12 @@
+ layout: page
+ permalink: /teaching/
+ title: teaching
+-description: Course materials from the classes that I have taught. 
++description: Course materials from the classes that I have taught.
+ nav: true
+ nav_order: 6
+ horizontal: false
+ ---
+ 
+-
+ <!-- pages/projects.md -->
+ <div class="teaching">
+ {% if site.enable_project_categories and page.display_categories %}
+diff --git a/_projects/1_project.md b/_projects/1_project.md
+index 15e20db..8c54d2e 100644
+--- a/_projects/1_project.md
++++ b/_projects/1_project.md
+@@ -9,7 +9,6 @@ category: work
+ related_publications: true
+ ---
+ 
+-
+ Every project has a feature showcase page.
+ This package implements influencer's game environments and tools for MARL and adaptive-dynamics experiments, making it easy to probe opinion and influence dynamics across custom networked settings.
+ 
+@@ -79,4 +78,4 @@ Here's the code for the last row of images above:
+ </div>
+ ```
+ 
+-{% endraw %}
+\ No newline at end of file
++{% endraw %}
